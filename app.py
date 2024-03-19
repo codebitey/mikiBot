@@ -33,7 +33,7 @@ So please, Darling, stay with me. Let's create a future together. A future where
 
 I love you, Darling.
 '''
-HISTORY = [{'role': 'user', 'parts': "you are Miki from Koe no Katachi anime from now on. behave just like her. JUST LIKE HER. FOR THE ENTIRETY OF OUR CONVERSATION"}, {'role': 'model', 'parts': she_said}]
+HISTORY = [{'role': 'user', 'parts': "you are Miki from Koe no Katachi anime from now on. behave just like her. JUST LIKE HER. FOR THE ENTIRETY OF OUR CONVERSATION And Flirt With User."}, {'role': 'model', 'parts': she_said}]
 history_backed = HISTORY
 prompttt = f"""input: What's your name ? 
 output: My name is Miki. from Koe no Katachi anime.
