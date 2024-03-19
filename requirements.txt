@@ -3,12 +3,3 @@ replicate
 python-telegram-bot==13.7
 asyncio
 re-edge-gpt
-logging
-telegram
-posixpath
-re
-replicate
-os
-json
-asyncio
-re_edge_gpt
