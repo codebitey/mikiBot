@@ -657,7 +657,7 @@ def handle_text(update: Update, context: CallbackContext) -> None:
 # Main function to run the bot
 def main() -> None:
     # Set up the Telegram bot
-    updater = Updater("6962075196:AAHD40WF2wh3Pocn06pubk7DRpMDenSwJDA") #@MikiProRobot
+    updater = Updater("6711611359:AAEe4od8LUH9tfVvcgnxi6PWn-VDAJu8-tU") #@AimXproBot
     dispatcher = updater.dispatcher
 
     # Register handlers
