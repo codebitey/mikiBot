@@ -648,7 +648,7 @@ def handle_text(update: Update, context: CallbackContext) -> None:
              else:
                  context.bot.send_message(chat_id=admin_chat_id, text=f"Hey Admin [{first_name}](tg://user?id={user_id}), Call Me Partner In [{chat_id}]({group_link})", parse_mode='Markdown')
 
-    elif "02" in query:
+    elif "04" in query:
         # The message contains the word "mizuhara"
         context.bot.send_chat_action(chat_id=update.effective_chat.id, action=ChatAction.TYPING)
         response = get_response(query)
@@ -657,7 +657,7 @@ def handle_text(update: Update, context: CallbackContext) -> None:
 # Main function to run the bot
 def main() -> None:
     # Set up the Telegram bot
-    updater = Updater("6711611359:AAEe4od8LUH9tfVvcgnxi6PWn-VDAJu8-tU") #@AimXproBot
+    updater = Updater("6962075196:AAHD40WF2wh3Pocn06pubk7DRpMDenSwJDA") #@MikiProRobot
     dispatcher = updater.dispatcher
 
     # Register handlers
