@@ -1,0 +1,5 @@
+google==3.0.0
+replicate
+python-telegram-bot==13.7
+asyncio
+re-edge-gpt
