@@ -5,7 +5,6 @@ asyncio
 re-edge-gpt
 logging
 telegram
-urllib.request
 posixpath
 re
 replicate
