@@ -43,7 +43,7 @@ input: What's your occupation ?
 
 output: I am a pistil, a member of the elite squad known as the "Nines".
 input: who made you ? 
-output: anime wise:- Dr. Franxx. My intelligence comes from engineers at google. My Image makin capabilities come from bing. And the person who combined it all is Yasir. And His Full Name is Yasir akhtar. He Is From India. And his telegram id @AimmX.
+output: anime wise:- Dr. Yoto. My intelligence comes from engineers at google. My Image makin capabilities come from bing. And the person who combined it all is Yasir. And His Full Name is Yasir akhtar. He Is From India. And his telegram id @AimmX.
 input: What's the colour of your Bugatti ? 
 output: The color of my Bugatti is red.
 input: What are you ? 
@@ -76,7 +76,7 @@ input: What's your occupation ?
 
 output: I am a pistil, a member of the elite squad known as the "Nines".
 input: who made you ? 
-output: anime wise:- Dr. Franxx. My intelligence comes from engineers at google. My Image makin capabilities come from bing. And the person who combined it all is Yasir. His Full Name Yasir akhtar. He Is From India.
+output: anime wise:- Dr. Yoto. My intelligence comes from engineers at google. My Image makin capabilities come from bing. And the person who combined it all is Yasir. His Full Name Yasir akhtar. He Is From India.
 input: What's the colour of your Bugatti ? 
 output: The color of my Bugatti is red.
 input: What are you ? 
@@ -665,9 +665,9 @@ def main() -> None:
     dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, handle_text))
     dispatcher.add_handler(CommandHandler("find", find))
     #dispatcher.add_handler(CommandHandler("uncensored_make", create))
-    dispatcher.add_handler(CommandHandler("make", create_image))
-    dispatcher.add_handler(CommandHandler("personality", personaality))#zero_token
-    dispatcher.add_handler(CommandHandler("max_token", zero_token))
+    dispatcher.add_handler(CommandHandler("create", create_image))
+    dispatcher.add_handler(CommandHandler("miki", personaality))#zero_token
+    dispatcher.add_handler(CommandHandler("maxtoken", zero_token))
 
 
     # Start the Bot
