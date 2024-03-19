@@ -659,7 +659,7 @@ def handle_text(update: Update, context: CallbackContext) -> None:
              else:
                  context.bot.send_message(chat_id=admin_chat_id, text=f"Hey Admin [{first_name}](tg://user?id={user_id}), Call Me Partner In [{chat_id}]({group_link})", parse_mode='Markdown')
 
-    elif "miki" or "Miki" in query:
+    elif "02" in query:
         # The message contains the word "mizuhara"
         context.bot.send_chat_action(chat_id=update.effective_chat.id, action=ChatAction.TYPING)
         response = get_response(query)
